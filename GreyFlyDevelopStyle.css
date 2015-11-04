@@ -1,0 +1,57 @@
+﻿body {
+}
+
+.develop-photo{
+    width:200px;
+    height:200px;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    float:left;
+    margin-top:25px;
+    margin-left:50px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.content img:hover{
+    border-radius:0;
+}
+.info{
+    width:200px;
+    height:350px;
+    margin-left:50px;
+    background-color:white;
+    float:left;
+    box-shadow:5px 5px 5px grey;
+
+}
+
+.info h2{
+    background-color:#26272C;
+    color:white;
+    margin-top:0;
+    font-weight:100;
+}
+
+.info p{
+    font-weight:bold;
+}
+
+#idea-button{
+    width:800px;
+    height:200px;
+    float:left;
+    margin-top:40px;
+}
+
+#button-1,
+#button-2{
+    color:white;
+    background-color:#26272C;
+    padding:20px;
+}
+
+#button-1{
+        margin-right:490px;
+}
+
+

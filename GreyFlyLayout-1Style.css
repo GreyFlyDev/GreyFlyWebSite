@@ -1,0 +1,47 @@
+﻿body {
+}
+
+#photo-list{
+    width:149px;
+    height:600px;
+    overflow:auto;
+    border-right:1px solid white;
+    float:left;
+    background-color:#485676;
+}
+
+#main-photo{
+    width:600px;
+    height:450px;
+    box-shadow:5px 5px 5px grey;
+    margin-top:40px;
+}
+
+.list-photo{
+    width:100px;
+    height:75px;
+    float:left;
+    margin-left:25px;
+    align-content:center;
+    margin-top:10px;
+
+}
+
+.list-photo:hover{
+    opacity:.7;
+}
+
+
+
+#download-button{
+    padding:20px;
+    background-color:#26272C;
+    color:white;
+    vertical-align:bottom;
+    
+}
+
+
+#main-table{
+    width:650px;
+}

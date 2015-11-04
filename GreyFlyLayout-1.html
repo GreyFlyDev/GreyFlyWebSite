@@ -1,0 +1,50 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="GreyFlyLayoutStyle.css" />
+    <link rel="stylesheet" type="text/css" href="GreyFlyLayout-1Style.css" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GREY FLY DEVELOPMENT</h1>
+            <h4>Developing Your Ideas</h4>
+        </header>
+        <aside class="main-nav">
+            <table class="main-nav-table">
+                <tr><td><a href="GreyFlyHome.html">HOME</a></td></tr>
+                <tr><td><a href="GreyFlyDevelop.html">DEVELOP</a></td></tr>
+                <tr class="current-tab"><td><a href="GreyFlyLayouts.html">WEB LAYOUTS</a></td></tr>
+            </table>
+        </aside>
+        <section class="content">
+            <div id="photo-list">
+                <img src="Photos/Layout-1.png" class="list-photo" onclick="document.getElementById('main-photo').src='Photos/Layout-1.png'"/>
+                <img src="Photos/Layout-1b.png" class="list-photo" onclick="document.getElementById('main-photo').src='Photos/Layout-1b.png'" />
+                <img src="Photos/Layout-1c.png" class="list-photo" onclick="document.getElementById('main-photo').src='Photos/Layout-1c.png'" />
+                <img src="Photos/Layout-1d.png" class="list-photo" onclick="document.getElementById('main-photo').src='Photos/Layout-1d.png'" />
+            </div>
+
+            <table id="main-table">
+                <tr>
+                    <td><img src="Photos/Layout-1.png" id="main-photo"></td>
+                </tr>
+                <tr>
+                    <td id ="download-button"><a href="Photos/HomePhoto-1.jpg" download="LayoutCode">Download Code</a></tdid>
+                </tr>
+            </table>
+
+            
+            
+        </section>
+        <footer>
+            &copy; <small>Grey Fly Development</small>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿body
+{
+}
+
+#idea-table{
+    width:800px;
+    height:100px;
+    text-align:center;
+}
+
+#idea-table input{
+    box-shadow:2px 2px 2px grey;
+}
+
+#email-input{
+    width:200px;
+}
+
+#idea-description{
+    width:625px;
+    height:300px;
+    box-shadow:5px 5px 5px grey;
+}
+
+#disclaimer{
+    width:400px;
+    margin:auto;
+}
+#disclaimer p{
+    width:400px;
+}
+
+#submit-button{
+    width:150px;
+    height:60px;
+    background-color:#26272C;
+    margin:auto;
+    border:0;
+    color:white;
+
+}
